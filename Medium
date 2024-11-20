@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+  int day;
+  float fine=0;
+  printf("enter number of days late:");
+  scanf("%d",&day);
+  if(day<=5){
+    fine=day*5*0.50;
+    }
+  else if(day<=10){
+    fine=5*0.50+(day-5)*1;
+    }
+    else if(day<=30){
+      fine=5*0.50+5*1+(day-10)*5;
+      }
+      else{
+        printf("Membership cancelled due to delay over 30days,\n");
+        }
+      printf("The total fine amount is;Rs,%2f,\nfine");
+      }
