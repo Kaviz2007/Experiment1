@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+int a;
+scanf("%d",&a);
+float f;
+f=(a*9/5)+32;
+printf("%.2f",f);
+}
