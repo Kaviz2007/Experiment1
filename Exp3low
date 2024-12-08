@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+int n;
+printf("Enter any number:");
+scant("%d",&n);
+if(n2<<1)
+{
+printf(" given number is odd");
+}
+else{
+print("even number");
+}
+}
